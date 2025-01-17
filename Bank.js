@@ -25,19 +25,35 @@ class Account {
   // Add methods here:
   // Example: deposit(amount)
   // example data to be stored in transactionHistory { transactionType: 'Deposit', amount: 500 }
-
-
-
+deposit(amount) {
+return;
+}
+this.balance += amount;
+this.transactionHistory.push([{ transactionType: 'Deposit', amount: 500 }])
   
   // Example: withdraw(amount)
   // example data to be stored in transactionHistory { transactionType: 'Withdrawal', amount: 200 }
+withdraw(amount) {
+  return;
+}
+this.balance -= amount;
+this.transactionHistory.push({transactionType: 'Withdrawal', amount: 200 })
+
 
   // Example: transfer(amount, recipientAccount)
   // example data to be stored in transactionHistory:
   // for account sending { transactionType: 'Transfer', amount: 300, to: recipientName }
   // for account recieving { transactionType: 'Received', amount: 300, from: senderName }
 
+transfer(amount, recipientAccount){
+  return;
+}
+
+
   // Example: checkBalance()
+
+
+
 }
 
 //<-------------------------------DO NOT WRITE BELOW THIS LINE------------------------------>
